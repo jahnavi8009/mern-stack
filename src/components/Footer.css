@@ -1,0 +1,62 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.app-buttons img {
+    width: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+}
+
+/* Adjust footer layout for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .app-buttons img {
+        width: 100px;
+    }
+}
