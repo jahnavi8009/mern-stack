@@ -4,32 +4,32 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      url: "/birthday.jpg",
+      url: "birthday.jpg",
       title: "Birthday Event",
     },
     {
       id: 2,
-      url: "/anniversary.jpg",
+      url: "anniversary.jpg",
       title: "Anniversary Event",
     },
     {
       id: 3,
-      url: "/entertainment event.jpg",
+      url: "entertainment event.jpg",
       title: "Entertainment Event",
     },
     {
       id: 4,
-      url: "/professional event.jpg",
+      url: "professional event.jpg",
       title: "Professional Event",
     },
     {
       id: 5,
-      url: "/party.jpg",
+      url: "party.jpg",
       title: "Party Event",
     },
     {
       id: 6,
-      url: "/wedding.jpg",
+      url: "wedding.jpg",
       title: "Wedding Event",
     },
   ];
