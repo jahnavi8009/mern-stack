@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jahnavi8009/github.io/mern-stack",
+  "homepage": "https://jahnavi8009.github.io/mern-stack",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "react-scripts build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
